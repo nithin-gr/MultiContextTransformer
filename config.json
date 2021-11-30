@@ -1,0 +1,43 @@
+{
+    "pickle": {
+        "vocabDictionaryPath": ".pkl",
+        "embeddingFilePath": ".npy"
+    },
+    "csv": {
+        "include_dev": true,
+        "trainDataframePath": ".csv",
+        "devDataframePath": ".csv",
+        "modifiedTrainDataframePath": ".csv",
+        "testDataframePath": ".csv",
+        "modifiedTestDataframePath": ".csv",
+        "modifiedDevDataframePath": ".csv",
+        "mergedDataframePath": ".csv"
+    },
+    "model": {
+        "pretrained": true,
+        "dModelEncoder": 0,
+        "dModelDecoder": 0,
+        "numberEncoderLayers": 0,
+        "numberDecoderLayers": 0,
+        "numberHeadsEncoder": 0,
+        "numberHeadsDecoder": 0,
+        "nhidEncoder": 0,
+        "nhidDecoder": 0,
+        "activation": "",
+        "dropout": 0.0,
+        "embeddingDimensions": 0
+    },
+    "training": {
+        "learningRate": 0E0,
+        "flag_continue": 0,
+        "start_epoch": 0,
+        "end_epoch": 0,
+        "checkpointFilePathToBeContinued": ".pt",
+        "checkpointFilePath": ".pt",
+        "logsFilePath": ".txt"
+    },
+    "evaluation": {
+        "checkpointToLoad": ".pt",
+        "predictionsFilePath": ".txt"
+    }
+}
